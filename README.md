@@ -38,19 +38,19 @@
 
 - Текстовый ответ:
     ```Bash
-    curl.exe -i http://localhost:8080
+    curl -i http://localhost:8080
     ```
     <img width="519" height="152" alt="image" src="https://github.com/user-attachments/assets/6c0aac2a-fd69-4369-b9f5-ce20a3a5945e" />
 
 - JSON-ответ со статусом и временем:
     ```Bash
-    curl.exe -i http://localhost:8080/ping
+    curl -i http://localhost:8080/ping
     ```
     <img width="555" height="155" alt="image" src="https://github.com/user-attachments/assets/305a7873-9cf8-402f-93bf-918a1c272550" />
 
 - JSON-ошибка:
     ```Bash
-    curl.exe -i http://localhost:8080/fail
+    curl -i http://localhost:8080/fail
     ```
     <img width="559" height="150" alt="image" src="https://github.com/user-attachments/assets/fbf0ce4f-5d5e-45d1-905e-1e9fb46649bd" />
 
