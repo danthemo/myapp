@@ -55,6 +55,9 @@
     <img width="559" height="150" alt="image" src="https://github.com/user-attachments/assets/fbf0ce4f-5d5e-45d1-905e-1e9fb46649bd" />
 
 - Чтобы передать заголовок `X-Request-Id` - указываем его в curl:
+    ```Bash
+    curl -i -H "X-Request-Id: demo-123" http://localhost:8080
+    ```
     <img width="689" height="174" alt="image" src="https://github.com/user-attachments/assets/50df2970-7f07-4fb7-9ece-f123de794ffa" />
     >Если не передать заголовок `X-Request-Id` - он будет сегенерирован автоматически
 
